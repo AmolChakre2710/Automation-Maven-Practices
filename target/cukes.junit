@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.457">
+    <testcase classname="Web Portal login test" name="Home page default login" time="0.054">
+        <system-out>
+            <![CDATA[Given Validate browser is opening...........................................passed
+When Browser is triggered...................................................passed
+Then Broweser is opened successfully........................................passed
+Given User  is on Netbanking login page.....................................passed
+When User enter his username "Test" and password "1234".....................passed
+Then User is on Netbanking home page........................................passed
+And cards displayed are "true"..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Web Portal login test" name="Home laon page default login" time="0.003">
+        <system-out>
+            <![CDATA[Given Validate browser is opening...........................................passed
+When Browser is triggered...................................................passed
+Then Broweser is opened successfully........................................passed
+Given User  is on Netbanking login page.....................................passed
+When User enter his username "Tester" and password "5678"...................passed
+Then User is on Netbanking home page........................................passed
+And cards displayed are "false".............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Web Portal login test" name="Home page default login" time="0.01">
+        <system-out>
+            <![CDATA[Given Validate browser is opening...........................................passed
+When Browser is triggered...................................................passed
+Then Broweser is opened successfully........................................passed
+Given User  is on Netbanking login page.....................................passed
+When User is signup with following details..................................passed
+Then User is on Netbanking home page........................................passed
+And cards displayed are "false".............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

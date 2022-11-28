@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.309">
+    <testcase classname="Web Portal login test" name="Home page default login" time="0.044">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Validate browser is opening...........................................passed
+When Browser is triggered...................................................passed
+Then Broweser is opened successfully........................................passed
+Given User  is on Netbanking login page.....................................passed
+When User enter his username "Test" and password "1234".....................passed
+Then User is on Netbanking home page........................................undefined
+And cards displayed are "true"..............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Web Portal login test" name="Home laon page default login" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Validate browser is opening...........................................passed
+When Browser is triggered...................................................passed
+Then Broweser is opened successfully........................................passed
+Given User  is on Netbanking login page.....................................passed
+When User enter his username "Tester" and password "5678"...................passed
+Then User is on Netbanking home page........................................undefined
+And cards displayed are "false".............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Web Portal login test" name="Home page default login" time="0.014">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Validate browser is opening...........................................passed
+When Browser is triggered...................................................passed
+Then Broweser is opened successfully........................................passed
+Given User  is on Netbanking login page.....................................passed
+When User is signup with following details..................................passed
+Then User is on Netbanking home page........................................undefined
+And cards displayed are "false".............................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
