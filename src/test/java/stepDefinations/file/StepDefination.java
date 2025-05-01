@@ -28,10 +28,10 @@ public class StepDefination {
 	    System.out.println(string2);
     }
 
-   /* @Then("^User is on Netbanking home page$")
+    @Then("^User is on Netbanking home page$")
     public void user_is_on_netbanking_home_page() throws Throwable {
         System.out.println("User is on his Netbanking home page");
-    }*/
+    }
 
     @And("cards displayed are {string}")
 	public void cards_displayed_are(String string) {
